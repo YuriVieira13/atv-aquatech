@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    background-color: #06070b;
+    border-bottom: 4px solid #39b8c7;
+}
+
+
+.header .container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px ;
+    padding-left: 200px;
+}
+
+.container h1 {
+
+    color:#39b8c7; 
+}
+
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+
+}
+
+.navbar li {
+
+    color:#FFD900B8
+;
+    list-style: none;
+
+}
+.navbar a {
+    color:orange;
+    text-decoration: none; 
+}
+
+.banner {
+
+    margin-top: -10;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+   
+}
+
+
+
+.banner p {
+
+    color: #e0dfde;
+    font-size: 38px;
+    text-align: left;
+    padding-left: 480px;
+    padding-bottom: 10px;
+}
+
+.social {
+
+    background-color: #e0dfde;
+    height: 420px;
+}
+
+.social .boxes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.box {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.box img {
+
+    height: 150px;
+    width: 150px;
+
+}
+
+.box h4 {
+    margin-top: 1px;
+    color:red
+}
+
+.footer {
+
+        background-color: #39b8c7;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        height: 220px;
+
+}
+
+.footer h4 {
+
+    color:#e0dfde;
+    text-align: center;
+    font-size: 23px;
+}
